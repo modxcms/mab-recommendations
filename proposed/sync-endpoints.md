@@ -16,11 +16,11 @@ To allow unhindered creative freedom with how contributors and extra developers 
 
 ## Relevant Recommendations
  - [DRAFT] Core Goals
- - [DRAFT] Accessibility Mandate
+ - [[DRAFT] Accessibility Mandate](https://github.com/modxcms/mab-recommendations/pull/3)
 
 
 ## Proof of Concept
-Manage Users Matboard Lab
+[Manage Users Matboard Lab](https://github.com/jpdevries/manage-users#manage-users-lab)
 
 
 ## Recommendation
