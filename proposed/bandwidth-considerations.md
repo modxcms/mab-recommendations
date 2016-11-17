@@ -11,7 +11,7 @@ To be mindful of the cost users pay to access the MODX Next management experienc
 ## Goals of Recommendation
 
 
-To make the MODX Next management experience more accessible and less expensive for our global user base. To optimize the page load times of the MODX Next manager across the web as a whole. To promote stability of the MODX Next manager experience.
+To make the MODX Next management experience more accessible and less expensive for our global user base. To optimize the page load times of the MODX Next manager across the web as a whole. To promote stability of the MODX Next manager experience. To add costly features and enhancements in a prgoressive manor so they can be opted out&nbsp;of.
 
 
 ## Relevant Recommendations
