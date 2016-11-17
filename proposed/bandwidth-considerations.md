@@ -22,7 +22,7 @@ As bandwidth considerations is part of accessibility best practices, [DRAFT] Acc
 Leverage the browser cache and stability of the progressively enhanced manager with the following practices:
 
 
-Front End assets delivered with the core shall not be compressed or concatenated on the server side.
+Front End (CSS, JS) assets delivered with the core shall not be compressed or concatenated on the server side.
 Front End assets delivered with the core shall first perform feature detection to test whether or not they are supported and not be loaded if they do not support the user’s environment.
 Common Dependencies used by the core such as jQuery, React, AngularJS, etc shall conditionally be loaded from a common CDN with local fallbacks to preserve stability in the event the CDN is unreachable.
 Extra Developers shall be encouraged, but not required, to perform feature detection to determine if a given asset has already been loaded.
