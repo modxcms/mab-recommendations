@@ -2,7 +2,7 @@
 
 _Note: This recommendation is a DRAFT for consideration of the MODX Advisory&nbsp;Board._
 
-The MODX Advisory Board recommends the Manager Interface respond to battery level for the first non&ndash;ExtJS Manager.
+The MODX Advisory Board recommends the Manager Interface respond to battery level for the first non&ndash;ExtJS&nbsp;Manager.
 
 **Editor: JP de Vries**
 **First published draft: Nov 19, 2016**
@@ -35,20 +35,20 @@ Tracing our tech stack back to web standards removes ExtJS only to add it back u
 To keep an interface of freely created components consistent with the goals and recommendations of the MAB, Extra developers will be advised to architect their components to have three states of CPU&nbsp;efficiency:
 
  - Glutenous
- - Polite
- - Suspended
+ - Modest
+ - Fasting
 
-The explicit thresholds should be configurable through settings and accessibility preferences. For example, we may default to 20-40% levels triggering polite mode, but the threshold remains configurable on the user level. Extra developers are encouraged, but not required, to use the same thresholds as the core in their&nbsp;components.
+The explicit thresholds should be configurable through settings and accessibility preferences. For example, we may default to 20-40% levels triggering modest mode, but the threshold remains configurable on the user level. Extra developers are encouraged, but not required, to use the same thresholds as the core in their&nbsp;components.
 
-We'll optimize for low power and full power use cases alike by responding to dynamic power levels. Instead of optimizing for a combination of the various power levels we can narrow optimizations down to the current power level. Our glutenous mode can be snappier with an abnormally frequent re&ndash;paint rate while low&ndash;power mode becomes more performant by allowing the interface to be accessed for more&nbsp;time.
+**We'll optimize for low power and full power use cases alike by responding to dynamic power levels**. Instead of optimizing for a combination of the various power levels we can narrow optimizations down to the current power level. Our glutenous mode can be snappier with an abnormally frequent re&ndash;paint rate while low&ndash;power mode allows the interface to be accessed for more&nbsp;time.
 
 ## 🍻 Glutenous Mode
 When devices have sufficient battery levels and/or are charging components are free to use all the CPU cycles they&nbsp;like.
 
-## 😀 Polite Mode
+## 🙂 Modest Mode
 When low battery levels are detected components respond by limiting the amount of CPU cycles they consume. For example, if in glutenous mode a component hits the API every 15 seconds to check for updates it may respond by checking for updates less&nbsp;often.
 
-Components in polite mode should also consider:
+Components in modest mode should also consider:
  - suspending transitions and animations
  - lazy&ndash;loading features that are not initially&nbsp;necessary
  - shedding costly CSS style effects
@@ -56,5 +56,5 @@ Components in polite mode should also consider:
 
 along with any other considerable opportunities discovered when auditing and profiling CPU&nbsp;conservation.
 
-## 😵 Suspended Mode
-When critically low battery levels are detected components respond by entering a sleepy and lazily loaded state. For example, if the page was rendered prior to entering suspended mode, the component will switch from glutenous or polite mode to a suspended mode by ceasing to spend non&ndash;critical CPU cycles. A component in suspended mode does not hit the API or update the view unless it absolutely must. If the component is born suspended the component itself should be lazily loaded by progressively enhancing it from a static placeholder HTML&nbsp;element. Once lazy loaded, the component responds to the current power level by launching in either polite or glutenous&nbsp;mode.
+## 😵 Fasting Mode
+When critically low battery levels are detected components respond by entering a sleepy and lazily loaded state. For example, if the page was rendered prior to entering suspended mode, the component will switch from glutenous or modest mode to a suspended mode by ceasing to spend non&ndash;critical CPU cycles. A component in suspended mode does not hit the API or update the view unless it absolutely must. If the component is born suspended the component should be lazily loaded by progressively enhancing it from a HTML&nbsp;element. Once lazy loaded, the component responds to the current power level by launching in either modest or glutenous&nbsp;mode.
