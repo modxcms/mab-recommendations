@@ -16,8 +16,11 @@ To deliver icons used by the MODX manager in an accessible, performant, and stan
 
 
 ## Relevant Recommendations
-[DRAFT] Accessibility Mandate
-[DRAFT] Bandwidth Considerations
+ - [DRAFT] Accessibility Mandate
+ - [DRAFT] Bandwidth Considerations
+
+## Relevant Resources
+ - [Firefox 50 added a built-in Emoji](https://www.mozilla.org/en-US/firefox/50.0/releasenotes/) set for operating systems without native Emoji fonts (Windows 8.0 and lower and&nbsp;Linux).
 
 
 ## Relevant Issues
