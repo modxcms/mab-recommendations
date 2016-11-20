@@ -21,6 +21,7 @@ To deliver icons used by the MODX manager in an accessible, performant, and stan
 
 ## Relevant Resources
  - [Firefox 50 added a built-in Emoji](https://www.mozilla.org/en-US/firefox/50.0/releasenotes/) set for operating systems without native Emoji fonts (Windows 8.0 and lower and&nbsp;Linux).
+ - [Grunting Icons into SVG Sprites](https://markup.tips/projects/grunting-icons-into-svg-sprites.html)
 
 
 ## Relevant Issues
@@ -38,7 +39,7 @@ While there are several strategies to loading web fonts, web fonts are by nature
 
 The `<i>` tag semantically represents oblique text. Not an icon. Icon Fonts are unsemantic. SVG graphics are semantic, can be used in conjunction with `<title>`, and need no ARIA attributes. SVG graphics also support multiple colors, CSS Variables, and&nbsp;animation.
 
-MODX 2.x introduced a Grunt based workflow for automating front end assets. We can Grunt Icons into SVG Sprites giving us the freedom to combine icons from iconsets like FontAwesome along with custom icons into a single sprite file while also automating the creation of PNG fallbacks for 100% browser support. This means that rather than delivering all 600+ FontAwesome icons we can use the Grunt workflow to only include the icons we use. Modifying or adding new icons is as simply as dropping or editing .svg files in a folder.
+MODX 2.x introduced a Grunt based workflow for automating front end assets. We can [Grunt Icons into SVG Sprites](https://markup.tips/projects/grunting-icons-into-svg-sprites.html) giving us the freedom to combine icons from iconsets like FontAwesome along with custom icons into a single sprite file while also automating the creation of PNG fallbacks for 100% browser support. This means that rather than delivering all 600+ FontAwesome icons we can use the Grunt workflow to only include the icons we use. Modifying or adding new icons is as simply as dropping or editing .svg files in a folder.
 
 
 It is recommended that icons are delivered Emoji first when possible and otherwise or based on system settings use the SVG `<use>` syntax with an optional PNG fallback as described in Grunt Icons into SVG Sprites Milestone 6. IE 9-11 do not support SVG `<use>` but there is a polyfill. _A JavaScript utility is in the works to progressively enhance Emoji icons into SVG&nbsp;icons._
