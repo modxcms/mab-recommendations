@@ -6,7 +6,7 @@ The PSR-3 Standard from the PHP-FIG contains an interface for a standardized log
 
 Editor: Mark Hamstra
 
-First published draft: Not yet reviewed/published.
+First published draft: 2016-11-23
 
 
 ## Goal of Recommendation
@@ -23,17 +23,25 @@ The adoption of the PSR-3 Standard in MODX 3, and implementation of that standar
 
 ## Recommendation
 
-The PSR-3 Logging Standard defines a common interface for logging implementations. This makes it possible to implement logging into a dependant application, without needing to know specifics about the logger configuration. 
+The PSR-3 Logging Standard defines a common interface for logging implementations. This makes it possible to implement logging into a dependant application, without needing to know specifics about the logger configuration or implementation. 
 
 Through the use of a dependency injection container (discussed in the “Refactor MODX Revolution 3.x as Slim 3.x App” and “Adopt PHP-DI as Dependency Injection Container” recommendations), it will be possible to define arbitrary implementations of the PSR-3 standard, and to configure those on an installation-by-installation basis. 
 
-The default PSR-3 implementation in MODX 3 needs to work out of the box in a similar fashion as the logging today, while allowing extensive customisation and flexibility for the more demanding users. For the out of the box implementations, the following guidelines were drafted:
+### Default Implementation
 
-- The included PSR-3 logging library should be the `monolog/monolog` package, included through Composer/Packagist and autoloaded. The reason for the preference of `monolog/monolog` over other PSR-3 compliant packages is its popularity in the PHP community as evidenced on Packagist; out of 40 million installations of the PSR-3 interfaces (`psr/log`), `monolog/monolog` has 38.8 million installations. 
-- The default configuration of the logger should be similar to the logging present in MODX 2.x. This mean the default configuration should log all messages that hold at least the severity configured in the `log_level` system setting to a single log file located in `core/cache/logs/error.log`.
+The default PSR-3 implementation in MODX 3 should work similar to the logger in MODX 2, while allowing extensive customisation and flexibility. 
 
-Implementing the PSR-3 standard into MODX means a few changes, some of which may break backwards compatibility. 
+The default implementation should at least:
 
-- PSR-3 mandates that the log() method on an instance of a logger interface is called. In the current MODX 2.x situation, the log() method is located on the xPDO object instead. With the introduction of a dependency injection container the logger can be loaded as necessary, however existing code will need to be adjusted. To preserve backwards compatibility, a magic `__call()` method, or not-as-magical `log()` method can be provided on the new modX object to forward the method call to the new logger instance. 
-- The current `log()` method contains some behaviour specific to MODX where it can be used to store information in the registry. This is used in console windows, such as installing packages, to present running output of a long-running process which is filled through the log method. This behaviour is not present in the PSR-3 implementation, so would be a breaking change that needs to be handled separately. In the MODX core, this is used for package installations and clearing the cache. Few extras exist that implement a similar functionality, but those will need to be updated. 
+- use the `monolog/monolog` package, included as composer dependency and autoloaded through the proposed dependency injection container. The `monolog/monolog` package is preferred due to its popularity in the PHP community (38.8M installations on Packagist) and abundance of third party packages providing handlers and formatters.
+- log all errors with a specified severity (`log_level` system setting, defaulting to error-level logs) or higher into a centralised `error.log` file located in `core/cache/logs`.
+
+Additional functionality and configuration may be implemented in the default configuration.
+
+### Backwards Compatibility
+
+There are a few concerns related to backwards compatibility in implementing this recommendation. 
+
+- PSR-3 states that the `log()` method is called on a `logger` interface. In MODX 2.x a `log()` method is provided on the xPDO/modX object. To preserve backwards compatibility and ease a transition to MODX 3, the xPDO/modX `log()` method should keep its existing signature, and translate that to the proper method call on the logger interface in the dependency injection container. 
+- The MODX 2.x `log()` method contains logic related to the so-called Registry. This is used in package installations, cache clearing and some third party extras to provide feedback in long-running processes. A different method to replace this behaviour should be implemented in MODX 3.x. 
 
