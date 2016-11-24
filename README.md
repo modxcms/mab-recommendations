@@ -10,3 +10,5 @@ This procedure shows on a high level how recommendations go from draft to being 
 2. Once the recommendation has been reviewed, typically after a MAB meeting, the (Vice-)Chair calls for a vote on the recommendation according to the [Voting Protocol](https://modx.com/community/modx-advisory-board/mab-voting-protocol). These votes will be cast by the MAB members by commenting on the pull request with a :+1: or :-1:
 3. When the vote ends (after 14 days or when all MAB members voted), the (Vice-)Chair ends the vote and either accepts the pull request, merging the recommendation into the repository, or closes the pull request. 
 
+
+**Only MODX Board Members may cast a vote. The Chief Architect and Chief Maintainer of the MODX Leadership are also granted one vote each. Votes may not be edited after they have been cast.**
