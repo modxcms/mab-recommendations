@@ -11,24 +11,29 @@ _Note: FontAwesome 5.0 Pro has announced it will support SVG usage and over 1,00
 **First publish draft: Nov 3, 2016**
 
 
-## Goal of Recommendation 😃
+## 🙏 Goal of Recommendation 
 To deliver icons used by the MODX manager in an accessible, performant, and standardized manner. To allow contributors creative freedom to add custom icons and control which icons are delivered. Targets the first non-ExtJS MODX manager. 
 
 
-## Relevant Recommendations
+## 📚 Relevant Recommendations
  - [DRAFT] Accessibility Mandate
  - [DRAFT] Bandwidth Considerations
 
-## Relevant Resources
+## 📖 Relevant Resources
  - [Firefox 50 added a built-in Emoji](https://www.mozilla.org/en-US/firefox/50.0/releasenotes/) set for operating systems without native Emoji fonts (Windows 8.0 and lower and&nbsp;Linux).
  - [Grunting Icons into SVG Sprites](https://markup.tips/projects/grunting-icons-into-svg-sprites.html)
 
 
-## Relevant Issues
+## 🐛 Relevant Issues
 [Death to Icon Fonts #12771](https://github.com/modxcms/revolution/issues/12771)
 
+## 🎯 Proof of Concept
+See [emoSVG](https://github.com/jpdevries/emosvg#emosvg-) and [m5bp](https://github.com/jpdevries/m5bp#m5bp).
 
-## Recommendation
+![](http://j4p.us/2x422N2l373K/emojiprefs.gif)
+
+
+## 📝 Recommendation
 While Icon Fonts are convenient, in regards to accessibility, performance, optimization, and semantics they are a worst practice.
 
 Even the new “Accessible FontAwesome 4.6” does not, and can not, escape the inaccessible nature of Icon Fonts.
