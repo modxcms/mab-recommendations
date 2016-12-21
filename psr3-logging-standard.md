@@ -1,7 +1,5 @@
 # PSR-3 Logging Standard
 
-Note: This recommendation is a DRAFT for consideration of the MODX Advisory Board. 
-
 The PSR-3 Standard from the PHP-FIG contains an interface for a standardized logging solution. This standard has been widely adopted throughout the industry, and it is recommended that MODX 3 adopts this standard, and its most common implementation Monolog. This will benefit the project in terms of reduced code maintenance, a more powerful logging solution, and an increased appeal for developers.  
 
 Editor: Mark Hamstra

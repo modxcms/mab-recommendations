@@ -1,7 +1,5 @@
 # Replace 3rd Party Libraries in Core with Composer Dependencies
 
-_Note: This recommendation is a DRAFT for consideration of the MODX Advisory Board._
-
 The MODX Advisory Board recommends the MODX Project replace all 3rd party code in the core of MODX Revolution 3.x with appropriate Composer dependencies.
 
 **Editor: Jason Coward**

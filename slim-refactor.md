@@ -1,7 +1,5 @@
 # Refactor MODX Revolution 3.x as Slim 3.x App
 
-_Note: This recommendation is a DRAFT for consideration of the MODX Advisory Board._
-
 The MODX Advisory Board recommends the MODX Project to refactor the core MODX classes and model on top of Slim 3.x to accelerate the modernization of the core codebase.
 
 **Editor: Jason Coward**

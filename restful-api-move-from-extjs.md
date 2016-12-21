@@ -1,7 +1,5 @@
 # A RESTful API & Steps to move away from ExtJS
 
-Note: This recommendation is a DRAFT for consideration of the MODX Advisory Board. 
-
 Providing a 4-step process to decouple the MODX server-side code from the actions in the Manager interface, allowing development on the manager interface to take place without needing as much server-side knowledge. 
 
 Editor: Mark Hamstra
