@@ -2,9 +2,9 @@
 
 The MODX Advisory Board recommends the MODX Project adopt PHP-DI as the Dependency Injection Container for MODX Revolution 3.x.
 
-**Editor: Jason Coward**
-**First published draft: October 20, 2016**
-
+* **Editor:** Jason Coward
+* **First published draft:** October 20, 2016
+* **Accepted:** December 8, 2016 with 14 votes in favour
 
 ## Goal of Recommendation
 

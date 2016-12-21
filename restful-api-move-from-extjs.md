@@ -2,9 +2,9 @@
 
 Providing a 4-step process to decouple the MODX server-side code from the actions in the Manager interface, allowing development on the manager interface to take place without needing as much server-side knowledge. 
 
-Editor: Mark Hamstra
-
-First published draft: 2016-11-23
+* **Editor:** Mark Hamstra
+* **First published draft:** November 23, 2016
+* **Accepted:** December 21, 2016 with 12 votes in favour
 
 ## Goal of Recommendation
 
