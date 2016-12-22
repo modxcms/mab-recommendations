@@ -2,9 +2,9 @@
 
 The MODX Advisory Board recommends the MODX Project to refactor the core MODX classes and model on top of Slim 3.x to accelerate the modernization of the core codebase.
 
-**Editor: Jason Coward**
-**First published draft: October 20, 2016**
-
+* **Editor:** Jason Coward
+* **First published draft:** October 20, 2016
+* **Accepted:** December 8, 2016 with 14 votes in favour
 
 ## Goal of Recommendation
 
