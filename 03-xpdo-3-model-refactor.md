@@ -1,4 +1,4 @@
-# Refactor Data Model using xPDO 3.x
+# MAB-03: Refactor Data Model using xPDO 3.x
 
 The MODX Advisory Board recommends the MODX Project refactor the MODX data model on top of xPDO 3.x to take advantage of autoloading and the removal of map files.
 

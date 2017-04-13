@@ -1,4 +1,4 @@
-# Replace 3rd Party Libraries in Core with Composer Dependencies
+# MAB-01: Replace 3rd Party Libraries in Core with Composer Dependencies
 
 The MODX Advisory Board recommends the MODX Project replace all 3rd party code in the core of MODX Revolution 3.x with appropriate Composer dependencies.
 

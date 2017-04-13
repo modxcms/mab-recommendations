@@ -1,4 +1,4 @@
-# A RESTful API & Steps to move away from ExtJS
+# MAB-06: A RESTful API & Steps to move away from ExtJS
 
 Providing a 4-step process to decouple the MODX server-side code from the actions in the Manager interface, allowing development on the manager interface to take place without needing as much server-side knowledge. 
 

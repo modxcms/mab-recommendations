@@ -1,4 +1,4 @@
-Assigning reference numbers to accepted recommendations
+# MAB-07: Assigning reference numbers to accepted recommendations
 ################
 
 To more clearly refer to accepted recommendations, the (Vice-)Chair of the MAB is to assign a unique, incremental number to each accepted recommendation after a vote. 

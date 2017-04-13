@@ -1,4 +1,4 @@
-# Adopt PHP-DI as Dependency Injection Container
+# MAB-02: Adopt PHP-DI as Dependency Injection Container
 
 The MODX Advisory Board recommends the MODX Project adopt PHP-DI as the Dependency Injection Container for MODX Revolution 3.x.
 
