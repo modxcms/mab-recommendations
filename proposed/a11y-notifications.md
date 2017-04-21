@@ -12,7 +12,8 @@ The MODX Advisory Board recommends, in an effort to provide an accessible asynch
 
 ## 🙏 Goals of Recommendation
 
-  - To ensure that important notifications are conveyed audibly as well as visually
+  - To ensure that notifications are conveyed audibly as well as visually
+  - To encourage the use of the [Nofication API](https://developer.mozilla.org/en/docs/Web/API/notification) so that notifications are relayed natively by the user agent 
   - To provide a Notifications history feature
 
 ## 📚 Relevant Recommendations
