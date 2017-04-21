@@ -39,10 +39,10 @@ It is imperative that accessibility be considered first and foremost in the desi
 While MODX has acknowledged the importance of accessibility, to date the project hasn’t been able to accurately define accessibility – let alone a path towards it. It would be unrealistic to expect MODX Contributors to become accessibility experts capable of following the latest accessibility success criteria and other best practices over night. This is why supporting documentation, examples, and human resources will be needed to make accessibility best practices accessible to contributors. Pun intended.
 
 
-Core Contributors will be encouraged to consult and collaborate with Accessibility Inspectors within the MODX Community so that they are not surprised if a pull request is rejected due to lack of compliance with accessibility guidelines or additional guidelines adopted by the governance board.
+Core Contributors will be encouraged to consult and collaborate with Accessibility Advisor within the MODX Community so that they are not surprised if a pull request is rejected due to lack of compliance with accessibility guidelines or additional guidelines adopted by the governance board.
 
 
-We must not allow our quest for accessible code to result in making the process of authoring an approved Pull Request become less accessible to developers. In other words,  a novice to accessibility should feel as comfortable proposing recommendations and Pull Requests as an expert. If a contributor is unable to seek out or afford accessibility consultation an Accessibility Inspectors will be appointed to them by the _________ in the form of _________________.
+We must not allow our quest for accessible code to result in making the process of authoring an approved Pull Request become less accessible to developers. In other words,  a novice to accessibility should feel as comfortable proposing recommendations and Pull Requests as an expert. If a contributor is unable to seek out or afford accessibility consultation an Accessibility Advisor will be appointed to them by the _________ in the form of _________________.
 
 
 Accessibility guidelines clearly defines requirements, but who decides if a Pull Request conforms to these guidelines? When architecting a structural building an architect designs the building, a builder constructs the building, and an inspector inspects the building to ensure it satisfies the appropriate building codes. The architect and the builder are expected to have knowledge of and follow building codes, but in the end it is the inspector who is the judge of if the building is structurally sound.
@@ -53,4 +53,4 @@ Front End Pull Requests must be approved by a certified MODX Accessibility Advis
 While inspection at the end of the development process is needed, ideally accessibility review should be integrated into the forefront of the process. Accessibility Advisors should be available to collaborate with the community and development teams at any point in the development process.
 
 
-_NOTE: How are Accessibility Inspectors approved? By the board? By an appointed Accessibility Ambassador? By a community committee?_
+_NOTE: How are Accessibility Advisors approved? By the board? By an appointed Accessibility Ambassador? By a community committee?_
