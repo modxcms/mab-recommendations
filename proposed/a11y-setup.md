@@ -2,7 +2,7 @@
 
 _Note: This recommendation is a DRAFT for consideration of the MODX Advisory&nbsp;Board._
 
-The MODX Advisory Board recommends, in an effort to make an accessible first impression, a new setup process will support the option to set accessibility preferences during the installation&nbsp;process.  
+The MODX Advisory Board recommends, in an effort to make an accessible first impression, a new more inclusive setup process will support the option to set accessibility preferences during the installation&nbsp;process.  
 🔧🤘
 
 **Editor: JP de Vries**
