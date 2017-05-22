@@ -11,7 +11,7 @@ The MODX Advisory Board recommends, in an effort to make an accessible first imp
 ## 🙏 Goals of Recommendation
 
   - To ensure that any accessibility preferences that may make the MODX Manager interface more accessible to users are accessible themselves during the installation setup&nbsp;process
-  - To allow Third Party Components to register preferences to the&nbsp;installer
+  - ~~To allow Third Party Components to register preferences to the&nbsp;installer~~
 
 ## 📚 Relevant Recommendations
 
@@ -34,7 +34,7 @@ _If a MODX user can not get to the System Settings page to update some settings 
 
 ⌛️ This recommendation should not increase the amount of time it takes to install MODX. For example, these options could be hidden behind a button or&nbsp;`<summary>`.
 
-📦&ensp;The core installation will ship with a default set of preferences configurable upon installation, but it is important that these preferences are not defined strictly by the core. Third Party Components (is that what we are calling Extras now?) should be able to register their own preferences that are accessible during&nbsp;installation.
+📦&ensp;~~The core installation will ship with a default set of preferences configurable upon installation, but it is important that these preferences are not defined strictly by the core. Third Party Components (is that what we are calling Extras now?) should be able to register their own preferences that are accessible during&nbsp;installation.~~
 
 🛠&ensp;Preferences should be able to be set as System, User, and/or `localStorage` Settings. This will allow MODX to be tailored to just your device, just your user, or system&nbsp;wide.
 
