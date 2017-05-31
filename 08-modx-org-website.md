@@ -4,7 +4,7 @@ This is a MODX Advisory Board (MAB) recommendation for building a MODX.org websi
 
 * **Editors:** Christian Seel, Mark Hamstra, Gauke Pieter Sietzema, Romain Tripault, Rinze van der Brug, Mat Dave
 * **First published draft:** 2017-04-18
-* **Accepted:** Not yet voted.
+* **Accepted:** 2017-05-31
 
 
 ## Goal of Recommendation
