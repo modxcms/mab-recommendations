@@ -1,7 +1,7 @@
 Recommendation Addendum 1: Withdrawing during Review or Vote
 ################
 
-Should during the review or vote stage of the recommendation process a better alternative be proposed, this addendum provides the recommendation editor with the ability to withdraw the recommendation and to cancel the vote.
+Adds an addendum to the Recommendations Process that allows a recommendation editor ability to withdraw their recommendations from review or vote.
 
 * **Editor:** Mark Hamstra
 * **First published draft:** 2017-07-07
@@ -43,3 +43,6 @@ Depending on the used platform to collect reviews or votes, the editor should al
 
 Immediately following the withdrawal of a recommendation currently under vote, the vote is automatically cancelled and the recommendation rejected. 
 
+## Upon Acceptance
+
+Should the recommendation be accepted, the Recommendations Process document should be updated to provide an addendum link to this recommendation.
