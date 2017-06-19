@@ -36,7 +36,7 @@ _If a MODX user can not get to the System Settings page to update some settings 
 
 📦&ensp;~~The core installation will ship with a default set of preferences configurable upon installation, but it is important that these preferences are not defined strictly by the core. Third Party Components (is that what we are calling Extras now?) should be able to register their own preferences that are accessible during&nbsp;installation.~~
 
-🛠&ensp;Preferences should be able to be set as System, User, and/or `localStorage` Settings. This will allow MODX to be tailored to just your device, just your user, or system&nbsp;wide.
+🛠&ensp;~~Preferences should be able to be set as System, User, and/or `localStorage` Settings. This will allow MODX to be tailored to just your device, just your user, or system&nbsp;wide.~~
 
 🎓&ensp;Someone who has a Masters Degree in Computer Science and just found out what MODX is 5 minutes ago, and is now trying to install it, is contextually a cognitively disabled MODX user. They don't know what MODX Extras are, let alone the right ones they need to install to get what they want done. It may take them days of trial and error and research to learn the MODX Extra ecosystem. The installation complete screen should allow users to specify what they will be building and automagically install the Extras they'll need. No longer will you need knowledge of what MODX Extras are what. You just tell MODX what you want to&nbsp;build.
 
