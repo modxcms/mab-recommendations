@@ -1,7 +1,7 @@
 _Note: This recommendation is a DRAFT for consideration of the MODX Governance Advisory Board._
 
 
-To ensure that the MODX Next core is developed in accordance with globally adopted accessibility guidelines all new or updated code released with the MODX Next core must conform with the latest accessibility guidelines in addition to any guidelines accepted by the MODX Advisory Board.
+To ensure that the MODX core is developed in accordance with globally adopted accessibility guidelines all new or updated code released with the MODX core must conform with the latest accessibility guidelines in addition to any guidelines accepted by the MODX Advisory Board.
 
 
 **Editor: JP de Vries**
