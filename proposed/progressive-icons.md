@@ -1,11 +1,9 @@
 _Note: This recommendation is a DRAFT for consideration of the MODX Governance Advisory Board._
 
 
-To ensure that icons delivered with the MODX Next core are semantic, optimal, reliable, and accessible to all users the MODX Next core shall utilize progressively enhanced icons. The core, and any themes packaged within, shall not utilize Icon Fonts for critical design&nbsp;elements.
-
+To ensure that icons delivered with the MODX distriubtion are semantic, optimal, reliable, and accessible to all users any themes bundled with the MODX distribution shall not utilize Icon Fonts for critical design&nbsp;elements.
 
 _Note: FontAwesome 5.0 Pro has announced it will support SVG usage and over 1,000 new icons_
-
 
 **Editor: JP de Vries**
 **First publish draft: Nov 3, 2016**
