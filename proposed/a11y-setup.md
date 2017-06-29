@@ -11,8 +11,7 @@ The MODX Advisory Board recommends, in an effort to make an accessible first imp
 ## 🙏 Goals of Recommendation
 
   - To ensure that any accessibility preferences that may make the MODX Manager interface more accessible to users are accessible themselves during the installation setup&nbsp;process
-  - To reimagine the setup process to be more end&ndash;user friendly (more accessible and less technical language)
-  - ~~To allow Third Party Components to register preferences to the&nbsp;installer~~
+  - To reimagine the setup process to be more end&ndash;user friendly (more accessible and less technical&nbsp;language)
 
 ## 📚 Relevant Recommendations
 
@@ -25,19 +24,12 @@ The MODX Advisory Board recommends, in an effort to make an accessible first imp
  - [Screencast](https://vimeo.com/218397030)
 
 ## 📝 Recommendation
-📓&ensp;At mod<strong>more</strong> we hired [Janita Top](https://www.meetup.com/Groningen-Frontend-Devs/members/148145182/) for some accessibility consulting. One of the things that stuck with me from her presentation was not to be too quick to celebrate victory. You may not have received any feedback about inaccessibility because if a someone can't use the site, they can't leave feedback to begin&nbsp;with.  
-💡💥
+👤 If preferences to improve the accessibility of the MODX manager are managed through system settings, these preferences themselves might not be accessible to the user. Whether these preferences relate to contrast, font-size, reduced animations or fully optimised manager themes, if the user is unable to configure such options, those features do not exist to&nbsp;them. Therefore, accessibility preferences must also be configurable from an accessible&nbsp;setup. 
 
-_If a MODX user can not get to the System Settings page to update some settings or switch themes, that feature does not exist to&nbsp;them._
-
-😃&ensp;Allowing users to set their preferences during the installation process will make for an accessible first impression of the MODX editing experience. Preferences like [contrast](https://markup.tips/settings.html#contrast), [font&ndash;size](https://markup.tips/settings.html#font-size), reduce animation, [font&ndash;family (choose a webfont)](https://markup.tips/settings.html#typeface), and even themes can be chosen during the installation&nbsp;process.
+🎩 The most efficient user action is no action at all. The MODX setup intaller and default theme should "automagically" respond to relevant system level preferences such as high contrast mode, legibility preferences, and the presence of the `save-data`&nbsp;header. Users who are not familiar with system level preferences, or cannot access them, or for some reason choose to override them, benefit from also being able to manage these preference within&nbsp;MODX.
 
 ⌛️ This recommendation should not increase the amount of time it takes to install MODX. For example, these options could be hidden behind a button or&nbsp;`<summary>`.
 
-📦&ensp;~~The core installation will ship with a default set of preferences configurable upon installation, but it is important that these preferences are not defined strictly by the core. Third Party Components (is that what we are calling Extras now?) should be able to register their own preferences that are accessible during&nbsp;installation.~~
+🎓&ensp;Someone who has a Masters Degree in Computer Science and just found out what MODX is 5 minutes ago, and is now trying to install it, is contextually a cognitively disabled MODX user. They don't know what MODX Extras are, let alone the right ones they need to install to get what they want done. It may take them days of trial and error and research to learn the MODX Extra ecosystem. The installation complete screen should allow users to specify what they will be building and automatically install the Extras they'll need. No longer will you need knowledge of the MODX Extras ecosystem. You just tell MODX what you want to&nbsp;build.
 
-🛠&ensp;~~Preferences should be able to be set as System, User, and/or `localStorage` Settings. This will allow MODX to be tailored to just your device, just your user, or system&nbsp;wide.~~
-
-🎓&ensp;Someone who has a Masters Degree in Computer Science and just found out what MODX is 5 minutes ago, and is now trying to install it, is contextually a cognitively disabled MODX user. They don't know what MODX Extras are, let alone the right ones they need to install to get what they want done. It may take them days of trial and error and research to learn the MODX Extra ecosystem. The installation complete screen should allow users to specify what they will be building and automagically install the Extras they'll need. No longer will you need knowledge of what MODX Extras are what. You just tell MODX what you want to&nbsp;build.
-
-🚫&ensp;This recommendation does not include the "package wizard" as found in the [MODX Setup concept](https://github.com/jpdevries/modx-setup#demo). That will be its own recomendation. This recommendation also does not target a specific version of MODX.
+📆&ensp;This recommendation target the first non&ndash;ExtJS version of&nbsp;MODX.
