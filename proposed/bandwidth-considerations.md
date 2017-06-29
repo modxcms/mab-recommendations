@@ -69,7 +69,7 @@ An HTML pattern to load from a CDN, with local fallbacks, only if feature detect
 <script defer>if(doEnhancments) document.write('<script src="assets/js/mycomponent.1.0.0.min.js"><\/script>');</script>
 ```
 
-Use a script based pattern to load dependencies lazyily and as/if needed:
+A script based pattern to load dependencies lazyily and as/if needed:
 
 ```js
 import lazyLoadScript from 'lazyload-script';
