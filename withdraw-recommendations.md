@@ -45,4 +45,4 @@ Immediately following the withdrawal of a recommendation currently under vote, t
 
 ## Upon Acceptance
 
-Should the recommendation be accepted, the Recommendations Process document should be updated to provide an addendum link to this recommendation.
+Should this recommendation be accepted, the Recommendations Process document should be updated to provide an addendum link to this recommendation.
