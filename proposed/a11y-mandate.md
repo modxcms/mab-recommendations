@@ -56,7 +56,7 @@ While MODX has acknowledged the importance of accessibility, to date the project
 > “Accessibility allows us to tap into everyone’s potential.”  
 &emsp;&mdash;&emsp;[@DebraRuh](https://twitter.com/akwyz/status/880712070496387072)
 
-Members appointed by the MODX Advisory Board to an Accessibility Advisory Working Group act as Accessibility Advisors to the greater MODX&nbsp;Community. Core Contributors will be encouraged to consult and collaborate with Accessibility Advisors within the MODX Community so that they are not surprised if a pull request is rejected due to lack of compliance with accessibility guidelines or additional guidelines adopted by the governance board.
+Members appointed by the MODX Advisory Board to an Accessibility Advisory Working Group act as Accessibility Advisors to the greater MODX&nbsp;Community. Core Contributors will be encouraged to consult and collaborate with Accessibility Advisors so that they are not surprised if a pull request is rejected due to lack of compliance with accessibility guidelines or additional guidelines adopted by the governance board.
 
 We must not allow our quest for accessible code to result in making the process of authoring an approved Pull Request become less accessible to developers. In other words,  a novice to accessibility should feel as comfortable proposing recommendations and Pull Requests as an expert. If a contributor is unable to seek out or afford accessibility consultation an Accessibility Advisor will be appointed to them by the _________ in the form of _________________.
 
