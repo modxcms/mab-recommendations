@@ -42,7 +42,7 @@ To provide all MODX users the ability to author and publish the web.
 ## Recommendation
 MODX enables site builders to not only create amazing experiences but also the creative freedom necessary to ensure the sites they create are accessible to all users. Unfortunately, to date the experience of building with MODX is not accessible to all users. Breaking changes allow the opportunity to adopt guidelines and ensure future major versions are truly&nbsp;accessible.
 
-[Accessibility is water](https://modx.today/posts/2016/02/accessibility-is-water); we are all equally deservant of it. With breaking changes following this recommendation, we'll irrigate accessibility entirely througout our diverse and global&nbsp;community.
+[Accessibility is water](https://modx.today/posts/2016/02/accessibility-is-water); we are all equally deserving of it. With breaking changes following this recommendation, we'll irrigate accessibility entirely througout our diverse and global&nbsp;community.
 
 
 > “Accessibility is a blueberry muffin. You can’t push the blueberries in afterwards.”  
