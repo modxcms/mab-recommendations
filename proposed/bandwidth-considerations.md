@@ -20,7 +20,7 @@ To be mindful of the cost users pay to access the MODX Next management experienc
 ## Relevant Recommendations
 As bandwidth considerations are part of accessibility best practices, [[DRAFT] Accessibility Mandate](https://github.com/modxcms/mab-recommendations/pull/3). This recommendation is proposed as a guideline accepted by the MODX Advisory Board and enforced by the Accessibility&nbsp;Mandate.
 
-The [Progressive Icons Purposal](https://github.com/modxcms/mab-recommendations/pull/1) is also mindful of&nbsp;bandwidth.
+The [Semantic Icons Proposal](https://github.com/modxcms/mab-recommendations/pull/1) is also mindful of&nbsp;bandwidth.
 
 
 ## Recommendation
