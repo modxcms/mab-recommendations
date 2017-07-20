@@ -18,13 +18,12 @@ To deliver icons used by the MODX manager in an accessible, performant, and stan
  - [DRAFT] Bandwidth Considerations
 
 ## 📖 Relevant Resources
- - [Firefox 50 added a built-in Emoji](https://www.mozilla.org/en-US/firefox/50.0/releasenotes/) set for operating systems without native Emoji fonts (Windows 8.0 and lower and&nbsp;Linux).
  - [Grunting Icons into SVG Sprites](https://markup.tips/projects/grunting-icons-into-svg-sprites.html)
  - [There is no Speed in Web Performance](https://medium.com/markuptips/there-is-no-speed-in-web-performance-1457f6ee79a3)
 
 
 ## 🐛 Relevant Issues
-[Death to Icon Fonts #12771](https://github.com/modxcms/revolution/issues/12771)
+ - [Death to Icon Fonts #12771](https://github.com/modxcms/revolution/issues/12771)
 
 
 ## 📝 Recommendation
