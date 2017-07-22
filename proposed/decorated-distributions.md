@@ -10,7 +10,7 @@ The MODX Advisory Board recommends supporting Snapshots, Teleport Packages, and 
 
 ## Goal of Recommendation
 
-To further solidify the perception of “MODX” as creative freedom by integrating enhancements seamlessly with the MODX&nbsp;Setup&nbsp;experience.
+To further solidify the perception of “MODX” as creative freedom by integrating enhancements seamlessly within the MODX&nbsp;Setup&nbsp;experience.
 
 
 ## Relevant Recommendations
